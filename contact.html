@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valuemart | تواصلوا معنا</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body class="inner-page">
+    <header class="site-header site-header--solid">
+        <div class="logo">Valuemart</div>
+        <nav class="main-nav" aria-label="روابط الموقع">
+            <button class="nav-toggle" aria-expanded="false" aria-controls="primary-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span class="sr-only">القائمة</span>
+            </button>
+            <ul id="primary-menu">
+                <li><a href="index.html">الرئيسية</a></li>
+                <li><a href="products.html">المنتجات</a></li>
+                <li><a href="about.html">حولنا</a></li>
+                <li><a href="contact.html" class="active">اتصل بنا</a></li>
+            </ul>
+        </nav>
+        <a href="products.html" class="cta-btn">ابدأ التسوق</a>
+    </header>
+
+    <main>
+        <section class="page-hero" aria-labelledby="contact-title">
+            <div class="container" data-animate="fade-up">
+                <p class="section-eyebrow">نحن هنا لأجلكم</p>
+                <h1 id="contact-title">خلينا نسمع قصتك مع الأناقة</h1>
+                <p class="subtitle">تواصلوا معنا لأي استفسار، طلب خاص، أو نصيحة موضة.</p>
+            </div>
+        </section>
+
+        <section class="section contact-section" aria-label="طرق التواصل">
+            <div class="contact-grid">
+                <div class="contact-card" data-animate="fade-up">
+                    <h2>ابقوا على تواصل</h2>
+                    <p>فريق خدمة العملاء متوفر طيلة أيام الأسبوع لمساعدتكم. سنرد عليكم خلال 24 ساعة.</p>
+                    <ul class="contact-list">
+                        <li>
+                            <span class="icon">📞</span>
+                            <div>
+                                <span class="label">الهاتف</span>
+                                <a href="tel:+212600000000">+212 600-000-000</a>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon">✉️</span>
+                            <div>
+                                <span class="label">البريد</span>
+                                <a href="mailto:hello@valuemart.store">hello@valuemart.store</a>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="icon">📍</span>
+                            <div>
+                                <span class="label">المقر</span>
+                                <p>الدّار البيضاء، المغرب</p>
+                            </div>
+                        </li>
+                    </ul>
+                    <div class="social-cta">
+                        <p>تابعونا لأحدث الحملات</p>
+                        <div class="socials">
+                            <a href="#">Instagram</a>
+                            <a href="#">TikTok</a>
+                            <a href="#">YouTube</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-card" data-animate="fade-up" data-delay="100">
+                    <form class="contact-form" action="#" method="post">
+                        <div class="form-group">
+                            <label for="name">الاسم الكامل</label>
+                            <input type="text" id="name" name="name" placeholder="اكتب اسمك" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email-contact">البريد الإلكتروني</label>
+                            <input type="email" id="email-contact" name="email" placeholder="example@email.com" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="topic">موضوع الرسالة</label>
+                            <select id="topic" name="topic">
+                                <option value="style">استشارة ستايل</option>
+                                <option value="order">استفسار حول طلب</option>
+                                <option value="collab">تعاون وشراكات</option>
+                                <option value="other">أخرى</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">رسالتك</label>
+                            <textarea id="message" name="message" rows="5" placeholder="شاركنا التفاصيل..." required></textarea>
+                        </div>
+                        <button type="submit" class="cta-btn">أرسل الرسالة</button>
+                    </form>
+                </div>
+            </div>
+            <div class="map-wrapper" data-animate="fade-up" data-delay="200">
+                <iframe title="موقع Valuemart" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3328.7114382631635!2d-7.618778623499766!3d33.573110142434864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xda7cd317b2e9fd9%3A0x7d3be4156045bcb4!2sCasablanca%2C%20Morocco!5e0!3m2!1sen!2sma!4v1700000000000!5m2!1sen!2sma" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer site-footer--compact">
+        <div class="footer-bottom">
+            <p>© <span id="current-year"></span> Valuemart. كل الحقوق محفوظة.</p>
+        </div>
+    </footer>
+    <div class="custom-cursor"></div>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
